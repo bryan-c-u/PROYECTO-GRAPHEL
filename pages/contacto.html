@@ -3,75 +3,62 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../styles/contacto.css">
     <title>Document</title>
+    <link rel="stylesheet" href="../styles/estilocontacto.css">
 </head>
 <body>
-    <header>
-    <div class="contenedor">
-      <h1> Diseño <span class="azul">Multimedia</span></h1>
-      <nav>
-        <a href="../inicio.html">INICIO</a>
-        <a href="nosotros.html">NOSOTROS</a>
-        <a href="servicios.html">SERVICIOS</a>
-        <a href="contacto.html" class="activo">CONTACTO</a>
-      </nav>
-    </div>
-  </header>
+     <header>
+            <h2>Diseño <strong>Multimedia</strong></h2>
+            <nav>
+                <ol>
+                    <li><a href="../index.html">INICIO</a></li>
+                    <li><a href="nosotros.html">NOSOTROS</a></li>
+                    <li><a href="servicios.html">SERVICIOS</a></li>
+                    <li><a href="contacto.html">CONTACTO</a></li>
+                </ol>
+            </nav>
+        </header>
+        <section class="secciondos">
 
-  <!-- BOLETIN -->
-  <section class="boletin">
-    <div class="contenedor">
-      <h3>Subscríbete a nuestro boletín</h3>
-      <form>
-        <input type="email" placeholder="Ingrese su Email...">
-        <button type="submit">Subscríbete</button>
-      </form>
-    </div>
-  </section>
+            <p><b>Suscribete a nuestro boletin</b></p>
 
-  <!-- CONTACTO -->
-  <section class="principal" class="contenedor">
-    <article>
-      <h2>Contacto</h2>
-      <br>
-      <form>
-        <label>Nombre</label><br>
-        <input type="text" placeholder="Ingresa tu nombre"><br>
+            <form action>
+                <label for="Buscar">
+                    <input type="text" name id
+                        placeholder="Ingresar el Email... ">
+                </label>
+                <button>suscribete</button>
+            </form>
+        </section>
+        <section class="contenido">
+            <section>
+                <h1>Contacto</h1>
+            <form action="" class="formulario">
+                <label for="">Nombre</label>
+                <input type="text" placeholder="Ingrese tu nombre">
+                <label for="">Email</label>
+                <input type="text" placeholder="Ingresa tu email">
+                <label for="">Telefono</label>
+                <input type="text" placeholder="Ingresa tu telefono">
+                <label for="">Celular</label>
+                <input type="text" placeholder="Ingresa tu celular">
+                <label for="">Mensaje</label>
+                <textarea name="" id="" rows="10">
 
-        <label>Email</label><br>
-        <input type="email" placeholder="Ingresa tu email"><br>
-
-        <label>Teléfono</label><br>
-        <input type="text" placeholder="Ingresa tu teléfono"><br>
-
-        <label>Celular</label><br>
-        <input type="text" placeholder="Ingresa tu celular"><br>
-
-        <label>Mensaje</label><br>
-        <textarea placeholder=""></textarea><br>
-
-        <button type="submit">Enviar</button>
-      </form>
-    </article>
-
-    <aside>
-      <div class="texto">
-      <h3>Qué hacemos</h3>
-      <br>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec varius auctor lacus nec feugiat.
-      </p>
-      </div>
-      <div class="mapa">
-      <img src="../assets/imagenes/mapaGoogle.png" alt="Mapa">
-      </div>
-    </aside>
-  </section>
-
-  <!-- FOOTER -->
-  <footer>
-    <p>Graphel Desarrollo Web, Copyright © 2017</p>
-  </footer>
+                </textarea>
+                <button>Enviar</button>
+            </form>
+            </section>
+            <aside>
+                <article>
+                    <h3>Que hacemos</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet, consequatur beatae! Consequuntur dignissimos, cumque quia dicta rem, repellendus magnam saepe fuga modi eaque incidunt veniam optio quae labore animi a.</p>
+                </article>
+                <img src="../assets/images/mapaGoogle.png" alt="">
+            </aside>
+        </section>
+         <footer>
+            <h2>Graphel Desarrollo Web, Copyright 2017</h2>
+        </footer>
 </body>
 </html>

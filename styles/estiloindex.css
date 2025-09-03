@@ -53,7 +53,7 @@ a:hover{
     align-items: center;
     justify-content: center;
     color: white;
-    background-image: url(../ASSETS/IMAGENES/cabecera.jpg);
+    background-image: url(../assets/images/cabecera.jpg);
     background-repeat: no-repeat;
     background-position: left center ;
 }
